@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+h1{
+	color: black;
+	font-size: 64px;
+	font-family: 'Archivo Black', Helvetica;
+	
+}
+
+h3{
+	color: black;
+	font-size: 32px;
+	font-family: Helvetica;
+}
+
+h4{
+	font-size: 24px;
+	font-family: Helvetica;
+}
+
+p{
+	font-family: Helvetica;
+	font-size: 18px;
+}
+
+.red-header{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: sans-serif;
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header{
+	color: white; /* more readable on an orange background */
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.header-cont {
+    width:100%;
+    position:fixed;
+	background-color: white;
+    top:0px;
+}
+.header {
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+}
+.content {
+    width:960px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 2000px;
+    margin: 70px auto;
+}
+
+.footer{
+	padding-top: 50px;
+	width: 200%;
+	background:#999;
+}
+
+/* Simple grid */
+.g-row{
+	width: 95%;
+	padding-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	overflow: hidden;
+	opacity: 0.5;
+}
+
+.g-row:hover{
+	opacity: 1;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: right;
+	padding-left: -50px;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: right;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
